@@ -26,6 +26,7 @@ evaluation.log
 # Jupyter notebooks
 .ipynb_checkpoints
 
+test_results/
 # IDE specific files
 .idea/
 .vscode/
