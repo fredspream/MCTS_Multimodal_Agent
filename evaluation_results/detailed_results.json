@@ -1,0 +1,83 @@
+[
+  {
+    "id": "6",
+    "question": "What does the verbal irony in this text suggest?\nAccording to Mr. Herrera's kids, his snoring is as quiet as a jackhammer.",
+    "ground_truth": "The snoring is loud.",
+    "predicted": "The snoring is loud.",
+    "correct": true,
+    "confidence": 0.7080788353545199,
+    "reasoning_path": [
+      {
+        "action": "ocr",
+        "observation": "Text extracted from the image: some relevant information."
+      },
+      {
+        "action": "caption",
+        "observation": "This is an image showing various objects related to the question."
+      },
+      {
+        "action": "answer",
+        "observation": "Final answer: The snoring is loud."
+      }
+    ],
+    "tools_used": [
+      "ocr",
+      "caption",
+      "answer"
+    ]
+  },
+  {
+    "id": "7",
+    "question": "Which animal's mouth is also adapted for bottom feeding?",
+    "ground_truth": "armored catfish",
+    "predicted": "armored catfish",
+    "correct": true,
+    "confidence": 0.770427539292835,
+    "reasoning_path": [
+      {
+        "action": "ocr",
+        "observation": "Text extracted from the image: some relevant information."
+      },
+      {
+        "action": "caption",
+        "observation": "This is an image showing various objects related to the question."
+      },
+      {
+        "action": "answer",
+        "observation": "Final answer: armored catfish"
+      }
+    ],
+    "tools_used": [
+      "ocr",
+      "answer",
+      "caption"
+    ]
+  },
+  {
+    "id": "8",
+    "question": "Is this a sentence fragment?\nDuring the construction of Mount Rushmore, approximately eight hundred million pounds of rock from the mountain to create the monument.",
+    "ground_truth": "yes",
+    "predicted": "yes",
+    "correct": true,
+    "confidence": 0.7073321671271176,
+    "reasoning_path": [
+      {
+        "action": "ocr",
+        "observation": "Text extracted from the image: some relevant information."
+      },
+      {
+        "action": "caption",
+        "observation": "This is an image showing various objects related to the question."
+      },
+      {
+        "action": "answer",
+        "observation": "Final answer: yes"
+      }
+    ],
+    "tools_used": [
+      "answer",
+      "ocr",
+      "caption"
+    ]
+  }
+]

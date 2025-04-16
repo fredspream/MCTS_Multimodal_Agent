@@ -1,0 +1,10 @@
+{
+  "tool_usage": {
+    "ocr": 3,
+    "caption": 3,
+    "answer": 5
+  },
+  "avg_confidence": 0.7571678993608065,
+  "avg_confidence_correct": 0.8059819982401182,
+  "avg_confidence_incorrect": 0.5619115038435599
+}
