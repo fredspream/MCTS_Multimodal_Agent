@@ -1,0 +1,26 @@
+[
+  {
+    "id": "test_1",
+    "question": "What is the capital of France?",
+    "answer": "Paris",
+    "subject": "Geography",
+    "topic": "Capitals",
+    "category": "Factual"
+  },
+  {
+    "id": "test_2",
+    "question": "What is 2+2?",
+    "answer": "4",
+    "subject": "Mathematics",
+    "topic": "Addition",
+    "category": "Calculation"
+  },
+  {
+    "id": "test_3",
+    "question": "What planet is known as the Red Planet?",
+    "answer": "Mars",
+    "subject": "Astronomy",
+    "topic": "Planets",
+    "category": "Factual"
+  }
+] 

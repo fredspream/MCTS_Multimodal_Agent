@@ -1,0 +1,38 @@
+{
+  "individual_examples": [
+    {
+      "example_id": "test_1",
+      "question": "What is the capital of France?",
+      "answer": "Paris",
+      "ground_truth": "Paris",
+      "correct": true,
+      "processing_time": 0.00013303756713867188
+    },
+    {
+      "example_id": "test_2",
+      "question": "What is 2+2?",
+      "answer": "4",
+      "ground_truth": "4",
+      "correct": true,
+      "processing_time": 8.034706115722656e-05
+    },
+    {
+      "example_id": "test_3",
+      "question": "What planet is known as the Red Planet?",
+      "answer": "Mars",
+      "ground_truth": "Mars",
+      "correct": true,
+      "processing_time": 8.7738037109375e-05
+    }
+  ],
+  "evaluation": {
+    "accuracy": 1.0,
+    "correct": 3,
+    "num_examples": 3
+  },
+  "processing_time": {
+    "total": 0.0017483234405517578,
+    "evaluation": 0.0008511543273925781,
+    "average_per_example": 0.00010037422180175781
+  }
+}

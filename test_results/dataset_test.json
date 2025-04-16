@@ -1,0 +1,13 @@
+{
+  "dataset_size": 3,
+  "first_example": {
+    "id": "test_1",
+    "question": "What is the capital of France?",
+    "answer": "Paris",
+    "subject": "Geography",
+    "topic": "Capitals",
+    "category": "Factual"
+  },
+  "multimodal_subset_size": 3,
+  "loading_time": 0.000278472900390625
+}

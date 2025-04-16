@@ -1,0 +1,53 @@
+[
+  {
+    "id": "test_1",
+    "question": "What is the capital of France?",
+    "ground_truth": "Paris",
+    "predicted": "Paris",
+    "correct": true,
+    "reasoning_path": [
+      {
+        "action": "TextExtractionTool",
+        "result": "Extracted text from question"
+      },
+      {
+        "action": "KnowledgeRetrievalTool",
+        "result": "Retrieved knowledge"
+      }
+    ]
+  },
+  {
+    "id": "test_2",
+    "question": "What is 2+2?",
+    "ground_truth": "4",
+    "predicted": "4",
+    "correct": true,
+    "reasoning_path": [
+      {
+        "action": "TextExtractionTool",
+        "result": "Extracted text from question"
+      },
+      {
+        "action": "KnowledgeRetrievalTool",
+        "result": "Retrieved knowledge"
+      }
+    ]
+  },
+  {
+    "id": "test_3",
+    "question": "What planet is known as the Red Planet?",
+    "ground_truth": "Mars",
+    "predicted": "Mars",
+    "correct": true,
+    "reasoning_path": [
+      {
+        "action": "TextExtractionTool",
+        "result": "Extracted text from question"
+      },
+      {
+        "action": "KnowledgeRetrievalTool",
+        "result": "Retrieved knowledge"
+      }
+    ]
+  }
+]
